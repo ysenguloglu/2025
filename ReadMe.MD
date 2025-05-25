@@ -21,7 +21,7 @@ You can review my work in the field of data analysis here. I am also a data engi
 
 + For customers in the at risk and hibernating segments, it may be useful to find out why they have not shopped for so long. Because we have about 1500 clients and they have a high monetary value. If necessary, we can collect information from them via email or sms and remind ourselves.
 
-+ It's been over a month since I shopped at new customers. These customers can be reminded of their most recent purchases and offered relevant products or we can send an email for thanks to their purchases.
++ It's been over a month without shopping since new customers. These customers can be reminded of their most recent purchases and offered relevant products or we can send an email for thanks to their purchases.
 
 + Loyal customers can be emailed about the products they buy the most.
 
