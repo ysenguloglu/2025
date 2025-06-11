@@ -1,5 +1,8 @@
 .env
+.ipynb_checkpoints
 /value_from_raw_to_model
 **/__pycache__*
 **/*.json
 /logs
+logs
+.vscode
