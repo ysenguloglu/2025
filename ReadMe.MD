@@ -15,7 +15,7 @@ You can review my work in the field of data analysis here. I am also a data engi
 - ROC AUC: 0.9909
 
 ### RFM Model Comments:
-![RFM Segments](rfm_segments.png)
+![RFM Segments](RFM/rfm_segments.png)
 
 + Can't loose customers has high recency value. We can start a new CRM campaign for them. For example, we send them an email about their most purchased products to attract them.
 
