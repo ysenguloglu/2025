@@ -6,8 +6,6 @@ Here we see how obt can be used for small volumes of data. We can access the rep
 
 A low-budget and fast analytical solution that we can use when working with small volumes of data.
 
-Translated with DeepL.com (free version)
-
 ## Note
 
 - I've used, Airflow 3. So there might be few differences from previous versions.
@@ -16,13 +14,15 @@ Translated with DeepL.com (free version)
 
 - Source([Fake Store API](https://fakestoreapi.com/)) → Staging(BigQuery) → DWH Analytics OBT (BigQuery)
 
-**How It Works?**
+### How It Works?
 
 - Gathering data from source than sending it to staging (stg) layer to make data transformation, data profiling and understanding the data.
 - After this, sending data to DWH layer. Cleansed, transformed, profiled.
 - At the end of all, we're ready to build OBT. It means, gather all that information in one big table (thats where OBT comes from).
 
 ![how_it_works](how_it_works.png)
+
+- About ref_date table: ref_date table, works like dim_date table. Under fake_store_scripts file, you can find SQL script [ref_date SQL Script](dags/fake_store_scripts/ref_date.sql)
 
 ### Technologies Used
 
